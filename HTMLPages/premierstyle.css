@@ -8,12 +8,12 @@ nav {
     height: 100px;
     background-color: #3F1052;
     color: white;
-    
-    h1 {
+}
+   nav h1 {
         padding: 10px;
         font-size: 16px;
     }
-    td {
+   nav  td {
         height: 50px;
         width: 20%;
         text-align: center;
@@ -31,3 +31,29 @@ table {
     width: 100%;
 }
 
+section {
+    max-width: 900px;
+    width: 100%;
+    margin: auto;
+}
+
+section tr {
+    height: 41px;
+    line-height: 24px;
+}
+
+section tr:hover {
+    background-color: rgba(0,0,0,.03);
+}
+
+section td {
+    min-width: 30px;
+    text-align: center;
+}
+
+
+header {
+    background-color: #F13F4;
+    padding: 16px;
+    margin-top: 5px;
+}
