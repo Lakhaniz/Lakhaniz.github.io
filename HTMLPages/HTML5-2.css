@@ -1,0 +1,27 @@
+body {
+    margin: 0;
+    
+    padding: 0;
+}
+
+
+id selector {
+    height: 330px;
+    width: 550px;
+    background: url(https://s3-us-west-2-amazonnaws.com/s.cdpn.io/187/vwood.png);
+    border-radius: 20px;
+    padding: 50px 50px 0px 50px;
+    margin: 50px auto;
+}
+
+class selector .black {
+    margin: 0-20px 0-20px;
+    z-index: 2;
+    border: 1px solid black;
+    border-radius: 0 0 3px 3px;
+    background-color: black;
+}
+
+class selector .white {
+    background: linear-gardient(to bottom, #fff 0%,#222 100%);
+}
