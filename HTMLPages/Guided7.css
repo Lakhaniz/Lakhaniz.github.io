@@ -1,0 +1,18 @@
+.padding-div {
+    background-color: #E3D0D8;
+    padding: 20px;
+    margin-top: 50px;
+    margin: auto;
+    width: 50%;
+}
+
+.padding-article {
+    background-color: #AEA3B0;
+    width: 100px;
+    height: 50px;
+    overflow: scroll;
+}
+
+overflow:hidden{
+    
+}
