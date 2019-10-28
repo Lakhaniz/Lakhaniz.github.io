@@ -1,0 +1,6 @@
+body{
+    background-image: url(sun.gif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
