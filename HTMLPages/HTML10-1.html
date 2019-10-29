@@ -4,8 +4,11 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title></title> <style>
-    margin 0;
-    padding 0;
+    *{
+        margin: 0;
+        padding: 0;
+    } 
+   
     
     .circles-container {
         width: 100%;
@@ -39,15 +42,15 @@
     }
     
     @keyframes bubble {
-        0% transform:translateY(0);
+        0% {transform:translateY(0);
            rotate(0deg);
            opacity:0.8;
-           border-radius:0;
+            border-radius:0; }
         
-        100% transform: translatY(-1000px);
+        100% {transform: translatY(-1000px);
              rotate(720deg);
              opacity: 0;
-             border-radius: 100%;
+            border-radius: 100%; }
     }
     
     .circle1 {
@@ -55,6 +58,55 @@
         width: 80px;
         height: 80px;
         animation-delay: 2s;
+    }
+    
+    .circle2 {
+        left: 30%;
+        width: 70%;
+        height: 70%;
+        animation-delay: 3s;
+    }
+    
+    .circle3 {
+        left: 20%;
+        width: 60%;
+        height: 60%;
+        animation-delay: 4s;
+    }
+    
+    .circle4{
+        left: 20%;
+        width: 50%;
+        height: 50%;
+        animation-delay: 3s;
+    }
+    
+    .circle5 {
+        left: 20%;
+        width: 50%;
+        height: 50%;
+        animation-delay: 5s;
+    }
+    
+    .circle6 {
+        left: 20%;
+        width: 40%;
+        height: 40%;
+        animation-delay: 4s;
+    }
+    
+    .circle7 {
+        left: 10%;
+        width: 40%;
+        height: 30%;
+        animation-delay: 2s;
+    }
+    
+    .circle8 {
+        left: 10%;
+        width: 30%;
+        height: 20%;
+        animation-delay: 1s;
     }
     
     </style>
