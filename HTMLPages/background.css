@@ -158,5 +158,10 @@ content card6 {
     padding: 0;
     animation-delay: 10%;
 }
+
+head {
+ font-family: 'Big Shoulders Text', cursive;
+ font-family: 'Liu Jian Mao Cao', cursive;
+}
     
     </style>
