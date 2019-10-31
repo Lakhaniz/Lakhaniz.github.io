@@ -164,5 +164,29 @@ content card6 {
 head {
  font-family: 'Big Shoulders Text', cursive;
  font-family: 'Liu Jian Mao Cao', cursive;
+ height: 100vh;
 }
+
+@keyframes move-text {
+    0% {
+        onscreen: 100%;
+    }
+}
+
+.content-wrapper {
+    max-width: 900px;
+    
+}
+
+.content-title {
+    font-family: 'Big Shoulders Text', cursive;
+}
+
+.content-container{
+    width: 100%;
+    height: 100vh;
+    margin: top bottom;
+}
+    
+
     
