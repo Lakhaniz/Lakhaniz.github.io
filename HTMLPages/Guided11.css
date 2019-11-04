@@ -1,0 +1,19 @@
+#flex-container {
+    width: 600px;
+    height: 300px;
+    padding: 10px;
+    background-color: lightgray;
+    display: flex;
+}
+
+#red-flex-item {
+    width: 200px;
+    height: 100%;
+    background-color: red;
+}
+
+#blue-flex-item {
+    width: 200px;
+    height: 100%;
+    background-color: blue;
+}
