@@ -1,0 +1,12 @@
+#tweet-container {
+    max-width: 600px;
+    width: 100%;
+    margin: auto;
+}
+
+#flex-container {
+    display: flex;
+    padding: 10px;
+    width: 100px;
+    margin-left: 15px;
+}
